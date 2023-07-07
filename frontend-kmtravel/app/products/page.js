@@ -1,10 +1,11 @@
 import SubHeader from '../../components/Subheader';
+import ProductItem from '../../components/ProductItem';
 
 function Products() {
     return (
         <>
         <SubHeader />
-            <p>This is the products!</p>
+            <ProductItem />
         </>
     )
 };
