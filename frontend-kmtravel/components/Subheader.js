@@ -1,7 +1,9 @@
 function SubHeader() {
     return (
         <>
-            <p>This is the SubHeader component</p>
+        <div class="bg-sky-300 flex items-center justify-center rounded h-20">
+            <p>Available accommodations</p>
+        </div>
         </>
     )
 }
