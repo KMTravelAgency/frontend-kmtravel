@@ -12,7 +12,7 @@ function ProductItem() {
                 <h1>
                 Bella Italia
                 </h1>
-                <button>order</button>
+                <button onClick={console.log("send data to backend")}>order</button>
             </form>
         </div>  
     </>
